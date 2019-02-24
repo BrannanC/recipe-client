@@ -1,0 +1,13 @@
+.Home {
+    max-width: 1000px;
+    background: rgb(252, 223, 232);
+    margin: 10px auto;
+    min-height: 90vh;
+    border-radius: 6px;
+    border: 3px solid palevioletred;
+}
+
+.Home h1 {
+    padding: 20px 0;
+    font-size: 3rem;
+}
