@@ -9,6 +9,32 @@
 
 .Recipe h1 {
     font-size: 3rem;
+    margin: 10px;
+}
+
+.Recipe h2 {
+    font-size: 2rem;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+.Recipe .recipe-instructions {
+    font-size: 1.6rem;
+    margin: 10px;
+    width: 60%;
+    line-height: 1.2;
+}
+
+.Recipe .IngredientsCard {
+    font-size: 1.6rem;
+    margin: 10px;
+    width: 40%;
+    line-height: 1.2;
+}
+
+.Recipe .content {
+    display: flex;
+    padding: 20px;
 }
 
 .recipe-list {

@@ -25,16 +25,20 @@ class Recipe extends Component {
 
   render() {
     return (
-      <div className="Dish">
-      <h1>Recipe</h1>
-        <h2>{this.state.recipe.recipe_name}</h2>
+      <div className="Recipe">
+      <h1>Recipe: {this.state.recipe.recipe_name}</h1>
+
+      <div className="content">
+        <p className="recipe-instructions">Instructions: {this.state.recipe.instructions}</p>
         <div className="IngredientsCard">
+        <h2>Ingredients</h2>
             <ul>
                 {this.state.recipe.ingredients && this.state.recipe.ingredients.map(x => {
                     return (<li>{x.quantity} {x.ingredient_name}</li>);
                 })}
             </ul>
         </div>
+      </div>
       </div>
     );
   }
