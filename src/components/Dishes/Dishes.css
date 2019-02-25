@@ -12,13 +12,17 @@
     margin: 10px;
 }
 
+.dish-list a {
+    color: white;
+    background: rgba(65, 65, 65, 0.418);
+}
+
 .Dish {
     max-width: 1000px;
-    background: rgb(252, 223, 232);
     margin: 10px auto;
     min-height: 90vh;
     border-radius: 6px;
-    border: 3px solid palevioletred;
+    color: white;
 }
 
 .Dish .dishname {
@@ -28,6 +32,13 @@
 
 .AddDish {
     min-height: 100vh;
+    color: white;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.TopFive {
+    background: rgba(65, 65, 65, 0.418);
 }
 
 .TopFive h2 {

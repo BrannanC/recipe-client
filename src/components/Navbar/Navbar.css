@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     padding: 10px 30px;
-    background: rgb(114, 233, 241);
+    background: rgba(65, 65, 65, 0.418);
 }
 
 .Navbar .logo {
@@ -10,12 +10,12 @@
     font-family: 'Varela', sans-serif;
     font-weight: 600;
     font-size: 2rem;
-    color: rgb(190, 41, 91);
+    color: white
 }
 
 .Navbar a {
     text-decoration: none;
-    color: rgb(190, 41, 91);
+    color: white;
     font-weight: 600;
 }
 
